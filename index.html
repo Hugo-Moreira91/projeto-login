@@ -17,17 +17,17 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente.<br> Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <!-- Formulário com método POST pois receberá a senha do usuário -->
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
                     <div id="campo-email">
-                        <span id="icone-pessoa" class="material-symbols-outlined">Person</span>
-                        <input type="email" name="email" id="iemail">
+                        <span id="icone" class="material-symbols-outlined">Person</span>
+                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail" autocomplete="email" required>
                     </div>
                     <div id="campo-senha">
-                        <span id="icone-chave" class="material-symbols-outlined">key</span>
-                        <input type="password" name="senha" id="isenha">
+                        <span id="icone" class="material-symbols-outlined">key</span>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" minlength="5" maxlength="15" required>
                     </div>
-                    <input type="submit" value="Entrar">
-                    <input type="button" value="Esqueci a senha &#x2709">
+                    <input id="botao-entrar" type="submit" value="Entrar">
+                    <input id="botao-senha" type="button" value="Esqueci a senha &#x2709">
                 </form>
             </div>
         </section>
