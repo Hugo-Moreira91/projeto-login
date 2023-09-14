@@ -14,9 +14,7 @@ div#imagem{
     display: inline-block;
     width: 250px;
     height: 300px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 20px;
+    border-radius: 17px 0px 0px 17px;
 }
 
 div#formulario{

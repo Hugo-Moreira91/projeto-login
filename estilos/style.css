@@ -38,8 +38,8 @@ main{
 div#imagem{
     height: 200px;
     background: white url('../imagens/pattern-building.jpg') center center/cover no-repeat fixed;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
 }
 
 div#formulario{
