@@ -7,13 +7,14 @@ body{
 
 section#login{
     width: 720px;
-    height: 400px;
+    height: 380px;
 }
 
 div#imagem{
     float: left;
     width: 30%;
     height: 100%;
+    border-radius: 17px 0 0 17px;
 }
 
 div#formulario{
@@ -22,14 +23,16 @@ div#formulario{
     height: 100%;
 }
 
-div#campo-email, div#campo-senha{
-    width: 450px;
+div#formulario > h1{
+    font-size: 1.8em;
+    margin: 15px 0;
+}
+
+div#formulario > p{
+    margin-bottom: 15px;
+    font-size: 0.9em;
 }
 
 input#iemail, input#isenha{
-    width: 380px;
-}
-
-input#botao-entrar, input#botao-senha{
-    width: 450px;
+    width: 90%;
 }

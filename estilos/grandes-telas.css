@@ -9,6 +9,7 @@ div#imagem{
     float: right;
     width: 50%;
     height: 100%;
+    border-radius: 0 17px 17px 0;
 }
 
 div#formulario{
@@ -19,26 +20,12 @@ div#formulario{
 
 div#formulario > h1{
     font-size: 2em;
-    padding: 12px 0 15px;
 }
 
 div#formulario > p{
-    padding: 0px 5px 5px;
     font-size: 1em;
 }
 
-form{
-    padding: 0;
-}
-
-div#campo-email, div#campo-senha{
-    width: 480px;
-}
-
 input#iemail, input#isenha{
-    width: 415px;
-}
-
-input#botao-entrar, input#botao-senha{
-    width: 480px;
+    width: 89%;
 }
