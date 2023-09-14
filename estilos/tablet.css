@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+body{
+    position: relative;
+    background-image: linear-gradient(to top, #B24F3A, #1B2F3A, #0C171D);
+}
+
+main{
+    width: 730px;
+    height: 300px;
+}
+
+div#imagem{
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+}
+
+div#formulario{
+    position: relative;
+    top: -24px;
+    left: 12px;
+    display: inline-block;
+    width: 450px;
+}
+
+div#campo-email, div#campo-senha{
+    width: 450px;
+}
+
+input#iemail, input#isenha{
+    width: 380px;
+}
+
+input#botao-entrar, input#botao-senha{
+    width: 450px;
+}
